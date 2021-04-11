@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Myeongjo&display=swap');
+
+body, main{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Barra de navegación */
+
+header{
+    width: 100%;
+    height: 10vh;
+}
+
+header nav{
+    width: 100%;
+    height: 10vh;
+    background-color: darkorange;
+    display: flex;
+    align-items: center;
+}
+
+header nav ol{
+    width: 100%;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+header nav ol li{
+    list-style: none;
+}
+
+header nav ol li a{
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6em;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+header nav ol li:hover{
+    background-color:darkslateblue;
+    cursor: pointer;
+}
+
+/* Contenido */
+
+.container{
+    width: 100%;
+}
+
+.container .row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.container .row .col-30{
+    width: 22em;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: blueviolet;
+    margin: 5px;
+}
+
+.container .row .col-30:nth-child(1){
+    background-image: url('https://laesferacomics.com/wp-content/uploads/2019/05/60345815_2448070628539467_9080514685786128384_n.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.container .row .col-30:nth-child(2){
+    background-image: url('https://live.staticflickr.com/8265/8664168638_7804e38f2f_c.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.container .row .col-30:nth-child(3){
+    background-image: url('https://www.superprof.co.uk/blog/wp-content/uploads/2019/06/Shonen-Jump.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.container .row .col-30 h2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: azure;
+}
+
+.container .row .col-30 p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: azure;
+}
+
+/* Banner */
+
+.container-banner{
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://free4kwallpapers.com/uploads/originals/2015/08/27/goku-vs-superman.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container-banner .row-banner{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.container-banner .row-banner .col-100{
+    width: 50%;
+}
+
+.container-banner .row-banner .col-100 h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 2.8rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: red;
+}
+
+.container-banner .row-banner .col-100 p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: red;
+}
+
+/* Pie de página */
+
+footer{
+    width: 100%;
+    background-color: darkorange
+}
+
+footer .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer .row .col-30{
+    width: 30%;
+    margin: 0 auto;
+}
+
+footer .row .col-30 h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: red;
+}
+
+footer .row .col-30:nth-child(1) ul{
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .row .col-30:nth-child(1) ul li{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6em;
+    padding: 5px 10px;
+    color: azure;
+    padding-left: 40px;
+}
+
+footer .row .col-30:nth-child(1) ul li:hover{
+    background-color: darkslateblue;
+    cursor: pointer;
+}
+
+footer .row .col-30:nth-child(2) div{
+    width: 100%;
+}
+
+footer .row .col-30:nth-child(2) div h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: red;
+}
+
+footer .row .col-30:nth-child(2) div p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 0px;
+    text-align: center;
+}
+
+footer .row .col-30:nth-child(3) p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 0px;
+    text-align: center;
+}
+
+footer .row .col-30:nth-child(3) img{
+    width: 100%;
+}
